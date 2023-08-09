@@ -1,0 +1,35 @@
+.display-flex{
+    display: flex;
+}
+.margin-x-20{
+    margin: 0 20px;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.glow{
+    text-shadow: 0 0 1px violet;
+    margin: 8px 0px;
+}
+
+.primary-heading{
+    font-size: 4rem;
+    letter-spacing: 10px;
+    text-align: center;
+    text-shadow: 0 0 5px violet;
+}
+
+.trans{
+    transition: 1s;
+}
+
+
+.responsive-primary-heading{
+    font-size: 3.5rem;
+}
+
+.responsive-secondary-heading{
+    font-size: 2rem;
+}

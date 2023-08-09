@@ -1,0 +1,49 @@
+.image-carousel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px 0px;
+    flex-direction: column;
+    box-shadow: 0 0 10px inset violet;
+}
+
+.imagecontainer{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-carousel img{
+    height: 30%;
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black, 0 0 20px inset black, 0 0 40px purple;
+}
+.image-carousel img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+
+}
+
+.carousel-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 25px;
+    margin: 2px 0px;
+}
+
+.image-carousel .bx{
+    font-size: 4rem;
+    color: purple;
+    font-weight: bold;
+    text-shadow: 0 0 10px violet;
+    margin: 0px 20px;
+    padding: 5px;
+    cursor: pointer;
+}

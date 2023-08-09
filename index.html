@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/animation.css">
+  <link rel="stylesheet" href="styles/arrow.css">
+  <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/darkmode.css">
+  <link rel="stylesheet" href="styles/projects.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+</head>
+
+<body>
+  <!-- ARROW BUTTON -->
+  <div class="arrow">
+    <a href="#top" class="arrowlink"><i class='bx bxs-up-arrow-circle arrowbtn'></i></a>
+  </div>
+  <!-- NAVBAR -->
+  <nav class="mynav responsive-nav-menu">
+    <a href="#" class="logocontainer">
+      <img src="img/logo.png" alt="">
+    </a>
+    <ul>
+      <li><a href="#" class="mylinks">Home</a></li>
+      <li><a href="#about-me" class="mylinks">About</a></li>
+      <li><a href="#projects" class="mylinks">Projects</a></li>
+    </ul>
+    <div class="darkmode">
+      <i class='bx bxs-sun btn-darkmode' type="button"></i>
+    </div>
+
+  </nav>
+  <!-- Home page content -->
+  <div class="container">
+    <div class="minicont">
+      <div class="heading">
+        <h1 class="primary responsive-primary-heading" id="#top">Arsalan Ahmed</h1>
+        <h4 class="secondary responsive-secondary-heading">I'm a Web Developer</h4>
+      </div>
+      <div class="boxes">
+        <div class="box">
+          <p>
+            Hello and welcome to my portfolio! I'm Arsalan, a passionate Web Developer. Within this digital realm, I
+            showcase my creative journey and accomplishments. Through a blend of innovation and dedication, I bring
+            ideas to life. Explore my works, projects, and experiences as they reflect my vision and skills.
+          <p>
+          <div class="info-button">
+            <button class="btn" type="button">
+              <a href="#moreinfo" class="more"> Social Links </a>
+              <i class='bx bxs-right-arrow-circle i-download'></i>
+            </button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="img/IMG-0254.jpg" alt="myprofile">
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- ABOUT SECTION -->
+  <br>
+  <section class="about">
+    <h1 class="primary-heading responsive-primary-heading" id="about-me"> About Me </h1>
+    <div class="personal-info display-flex">
+      <div class="info-box">
+        <div class="info">
+          <div class="headings">
+            <div class="display-flex name justify-content-space-between  responsive-heading">
+              <h3 class="glow">Name: </h3>
+              <h3 class="glow">Arsalan Ahmed</h3>
+            </div>
+            <div class="display-flex age justify-content-space-between  responsive-heading">
+              <h3 class="glow">Age: </h3>
+              <h3 class="glow">24</h3>
+            </div>
+            <div class="display-flex email justify-content-space-between  responsive-heading">
+              <h3 class="glow">Location: </h3>
+              <h3 class="glow">Bhopal</h3>
+            </div>
+            <div class="display-flex email justify-content-space-between  responsive-heading">
+              <h3 class="glow">Email: </h3>
+              <h3 class="glow">arsalanahmed7999@gmail.com</h3>
+            </div>
+          </div>
+          <div class="download-btn">
+            <button class="btn" type="button">
+              <a href="Resume/ARSALAN AHMED.pdf" target="_blank">Resume</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="boxes">
+        <div class="card ">
+          <i class='bx bxl-html5 card-icon'></i>
+          <h1> HTML </h1>
+        </div>
+        <div class="card">
+          <i class='bx bxl-css3 card-icon'></i>
+          <h1> CSS </h1>
+        </div>
+        <div class="card">
+          <i class='bx bxl-javascript card-icon'></i>
+          <h1> Javascript </h1>
+        </div>
+        <div class="card">
+          <i class='bx bxl-python card-icon'></i>
+          <h1>Python</h1>
+        </div>
+        <div class="card">
+          <i class='bx bxl-wordpress card-icon'></i>
+          <h1>Wordpress</h1>
+        </div>
+        <div class="card">
+          <i class='bx bxl-bootstrap card-icon'></i>
+          <h1>Bootstrap</h1>
+        </div>
+        <div class="card">
+          <i class='bx bxl-php card-icon'></i>
+          <h1>Php</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Projects -->
+  <section class="projects">
+    <h1 class="primary-heading project-heading responsive-primary-heading" id="projects"> Projects Overview</h1>
+    <div class="image-carousel">
+      <div class="imagecontainer">
+        <img src="img/9.gif" alt="image" class="projectimage">
+      </div>
+      <div class="carousel-btn">
+        <span class="prev"><i class='bx bxs-chevron-left left' type="button"></i></span>
+        <span class="next"><i class='bx bxs-chevron-right right' type="button"></i></span>
+      </div>
+
+    </div>
+  </section>
+  <br><br><br><br>
+  <!-- Footer SECTION -->
+  <hr>
+  <footer id="moreinfo">
+    <div class="social">
+      <h1 class="follow"> Follow me on </h1>
+      <div class="linksbox">
+        <a href="https://www.instagram.com/devwitharsalan/" class="sociallinks" target="_blank">
+          <i class='bx bxl-instagram socialicon'></i>
+          <p>Instagram</p>
+        </a>
+        <a href="https://www.youtube.com/@devwitharsalan/about" class="sociallinks" target="_blank">
+          <i class='bx bxl-youtube socialicon'></i>
+          <p>Youtube</p>
+        </a>
+        <a href="https://www.linkedin.com/in/arsalan-ahmed-148672164/" class="sociallinks" target="_blank">
+          <i class='bx bxl-linkedin socialicon'></i>
+          <p>Linkedin</p>
+        </a>
+        <a href="https://twitter.com/devWithArsalan" class="sociallinks" target="_blank">
+          <i class='bx bxl-twitter socialicon'></i>
+          <p>Twitter</p>
+        </a>
+        <a href="https://github.com/Arsalanahmed7999" class="sociallinks" target="_blank">
+          <i class='bx bxl-github socialicon'></i>
+          <p>Github</p>
+        </a>
+      </div>
+
+    </div>
+    <div class="hr">
+      <hr class="menu-hr">
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="#" class="mylinks">Home</a></li>
+        <li><a href="#about-me" class="mylinks">About</a></li>
+        <li><a href="#projects" class="mylinks">Projects</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+<script src="scripts/darkmode.js"></script>
+<script src="scripts/carousel.js"></script>
+</html>

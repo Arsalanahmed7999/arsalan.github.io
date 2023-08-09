@@ -1,0 +1,9 @@
+/* Animation */
+@keyframes bg {
+    0%, 100%{
+        background: aqua;
+    }
+    50%{
+        background-color: violet;
+    }
+}

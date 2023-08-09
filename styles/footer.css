@@ -1,0 +1,108 @@
+hr{
+    height: 2px;
+    border: 2px solid violet;
+}
+footer{
+    background-color: purple;
+    color: white;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 20px 10px;
+    flex-direction: column;
+    /* border: 2px solid black; */
+
+}
+footer .follow{
+    text-align: center;
+    padding: 12px 0px;
+    margin-bottom: 10px;
+    /* border: 2px solid black; */
+
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.linksbox{
+    padding: 10px 25px;
+    display: flex;
+    width: 85vw;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
+}
+.sociallinks{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    color: violet;
+    margin: 8px 0px;
+    align-items: center;
+    box-shadow: 0 0 10px violet, 0 0 2px inset violet;
+    padding: 10px 20px;
+    margin: 10px 12px;
+    width: 200px;
+    /* border: 2px solid black; */
+
+}
+.sociallinks:hover{
+    transform: scale(1.1);
+    border-radius: 2px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px inset violet, 0 0 20px inset violet, 0 0 10px violet;
+}
+footer .menu ul{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 8px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    /* background-color: red; */
+}
+footer .menu ul li{
+    list-style: none;
+    padding: 10px 15px;
+    margin: 5px 10px;
+}
+footer .menu ul li a{
+    text-decoration: none;
+    color: violet;
+    margin: 5px 10px;
+}
+
+footer .socialicon{
+    font-size: 20px;
+    margin: 0px 10px;
+    padding: 5px;
+}
+
+.menu ul li a{
+    padding: 12px 20px;
+}
+.menu ul li a:hover{
+    transition: 0.5s;
+    transform: scale(1.5);
+    box-shadow: 0 0 2px inset violet, 0 0 4px inset violet, 0 0 2px violet;
+    font-weight: bold;
+}
+
+.hr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+}
+.menu-hr{
+    height: 1px;
+    width: 70vw;
+    border: 2px solid violet;
+}
